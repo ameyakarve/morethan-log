@@ -4,7 +4,7 @@ const CONFIG = {
     name: 'Card Vault',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: 'Credit card nerd',
-    bio: 'I develop everything using node.',
+    bio: 'Supercharge your credit card optimization',
     email: 'zz@zz.com',
     linkedin: 'zz',
     github: 'zz',
@@ -18,9 +18,9 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: 'Card Vault!',
+    title: 'Card Vault',
     description: 'Welcome to CardVault!',
-    theme: 'dark' // ['light', 'dark', 'auto']
+    theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
