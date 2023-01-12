@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: 'Card Vault',
-    image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: '/icon.png',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: 'Credit card nerd',
     bio: 'Supercharge your credit card optimization',
     email: 'zz@zz.com',
