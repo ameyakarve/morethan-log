@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'Card Vault',
+    name: 'PointsNerd',
     image: '/icon.png',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'Credit card nerd',
-    bio: 'Supercharge your credit card optimization',
-    email: 'zz@zz.com',
-    linkedin: 'zz',
-    github: 'zz',
+    role: 'Reward Point Nerd',
+    bio: 'Freebies give me a kick!',
+    email: '',
+    linkedin: '',
+    github: '',
     instagram: '',
   },
   projects: [
@@ -18,18 +18,18 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: 'Card Vault',
-    description: 'Welcome to CardVault!',
+    title: 'PointsNerd',
+    description: 'Welcome to PointsNerd!',
     theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://morethan-log.vercel.app',
+  link: 'https://pointsnerd.in',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Credit Card', 'India', 'Reward Points', 'Vistara', 'Club', 'Axis', 'HDFC', 'SBI'],
   },
 
   // notion configuration (required)
@@ -51,7 +51,7 @@ const CONFIG = {
     }
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: 'morethanmin/morethan-log',
       'issue-term': 'og:title',
