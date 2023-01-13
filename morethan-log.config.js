@@ -16,7 +16,12 @@ const CONFIG = {
     description: 'Welcome to PointsNerd!',
     theme: 'light' // ['light', 'dark', 'auto']
   },
-  projects: [],
+  projects: [
+    {
+      name: '',
+      href: ''
+    }
+  ],
   // CONFIG configration (required)
   link: 'https://pointsnerd.in',
   since: 2022, // If leave this empty, current year will be used.
