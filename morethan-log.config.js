@@ -53,7 +53,7 @@ const CONFIG = {
     enable: false,
     config: {
       repo: 'morethanmin/morethan-log',
-      'issue-term': 'og:title',
+      'issue-term': 'og:titl',
       label: '💬 Utterances',
     }
   },
