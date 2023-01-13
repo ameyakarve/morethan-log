@@ -11,10 +11,6 @@ const CONFIG = {
     instagram: '',
   },
   projects: [
-    {
-      name: 'Untilled',
-      href: 'https://untilled.web.app'
-    }
   ],
   // blog setting (required)
   blog: {
