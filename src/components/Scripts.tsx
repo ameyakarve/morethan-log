@@ -9,7 +9,7 @@ const Scripts: React.FC = () => (
           src={`https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.config.measurementId}`}
         />
         <Script strategy="lazyOnload" id="ga">
-          {`window.dataLayer = window.dataLayer || [];
+          {`window.dataLayer = window.dataLayer || []; let a = 1;
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${CONFIG.googleAnalytics.config.measurementId}', {
