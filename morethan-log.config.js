@@ -40,7 +40,7 @@ const CONFIG = {
   googleAnalytics: {
     enable: true,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || ''
+      measurementId: 'G-XNCVWKSZ0S'
     }
   },
   googleSearchConsole: {
